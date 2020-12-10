@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="http://www.w3schools.com/lib/w3data.js"></script>
+<head>
+    <title>New item</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="static/common_style.css">
+</head>
+<body>
+<div class="bodyContainer">
+    <div w3-include-html="navigation_bar.html"></div>
+    <section class="newItemContainer">
+        <div class="justifyCenter addItemHeader">
+            Add new gift certificate
+        </div>
+<!--        todo для того чтобы сделать Main Page с переносами items которые
+                не помещаются в одну строчку на другую строчку использовать flex-wrap-->
+        <div class="loginContainer">
+            <div class="">
+                <div class="loginForm">
+                    <label class="">
+                        <input class="" id="name" name="name"
+                               type="text" placeholder="Name">
+                    </label>
+                </div>
+                <div class="loginForm">
+                    <label class="">
+                        <input class="" id="description" name="description"
+                               type="text" placeholder="Description">
+                    </label>
+                </div>
+                <div class="loginForm">
+                    <label class="">
+                        <input class="" id="price" name="price"
+                               type="text" placeholder="Price">
+                    </label>
+                </div>
+                <div class="loginForm">
+                    <label class="">
+                        <input class="" id="duration in days" name="duration in days"
+                               type="text" placeholder="Duration in days">
+                    </label>
+                </div>
+            </div>
+            <div class="addItemButtons">
+                <div class="marginRight20px justifyCenter">
+                    <input class="buttonCancel" type="reset" value="Back">
+                </div>
+                <div class="justifyCenter">
+                    <input class="buttonSubmit" type="submit" value="Save">
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        w3IncludeHTML();
+    </script>
+</div>
+</body>
+</html>

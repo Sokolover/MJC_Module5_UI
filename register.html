@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="http://www.w3schools.com/lib/w3data.js"></script>
+<head>
+    <title>SignUp</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="static/common_style.css">
+</head>
+<body>
+<div class="bodyContainer">
+    <div w3-include-html="navigation_bar.html"></div>
+    <section class="registerContainer">
+        <div class="registerForm">
+            <div class="registerHeader">
+                Registration
+            </div>
+            <div class="registerContent">
+                <div class="columnRegisterForm">
+                    <div class="loginForm">
+                        <label class="label">
+                            Username
+                            <input class="" id="username" name="username"
+                                   type="text" placeholder="">
+                        </label>
+                    </div>
+                    <div class="loginForm">
+                        <label class="label">
+                            Password
+                            <input class="" id="password" name="password"
+                                   type="password" placeholder="">
+                        </label>
+                    </div>
+                    <div class="loginForm">
+                        <label class="label">
+                            Email
+                            <input class="" id="email" name="email"
+                                   type="text" placeholder="">
+                        </label>
+                    </div>
+                </div>
+                <div class="columnRegisterForm">
+                    <div class="loginForm">
+                        <label class="label">
+                            First name
+                            <input class="" id="firstName" name="firstName"
+                                   type="text" placeholder="">
+                        </label>
+                    </div>
+                    <div class="loginForm">
+                        <label class="label">
+                            Repeat password
+                            <input class="" id="repeatPassword" name="repeatPassword"
+                                   type="password" placeholder="">
+                        </label>
+                    </div>
+                    <div class="loginForm">
+                        <label class="label">
+                            Address
+                            <input class="" id="address" name="address"
+                                   type="text" placeholder="">
+                        </label>
+                    </div>
+                    <div class="registerButtons">
+                        <div class="marginRight20px justifyCenter">
+                            <input class="buttonCancel" type="reset" value="Cancel">
+                        </div>
+                        <div class="justifyCenter">
+                            <input class="buttonSubmit" type="submit" value="Sign Up">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        w3IncludeHTML();
+    </script>
+</div>
+</body>
+</html>
