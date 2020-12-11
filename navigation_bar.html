@@ -3,19 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="static/navigation_bar.css">
 </head>
 <body>
 <section class="appHeader">
-    <div class="betweenContainer">
-        <div class="alignItemsLeft">
+    <div class="navigationContainer">
+        <div class="leftContainer">
             <img src="static/menu-24px.svg" alt="Menu" width="24" height="24">
         </div>
-        <div class="alignItemsCenter">
+        <div class="centerContainer">
             <div class="topNavigation">
-                <label class="">
-                    <input type="text" id="searchBy" name="searchBy"
-                           placeholder="Search by item name">
-                </label>
+                <input type="text" id="searchBy" name="searchBy"
+                       placeholder="Search by item name">
             </div>
             <div class="select">
                 <label class="">
@@ -26,22 +25,12 @@
                 </label>
             </div>
         </div>
-        <div class="alignItemsRight">
-            <div class="betweenContainer">
-                <div class="marginInline10px">
-                    <img src="static/favorite-24px.svg" alt="Favorite" width="24" height="24">
-                </div>
-                <div class="marginInline10px">
-                    <img src="static/shopping_cart-24px.svg" alt="Shopping cart" width="24" height="24">
-                </div>
-                <div class="marginInline10px">
-                    <a href="/api/users/sign-up" name="Login">Login</a>
-                </div>
-                |
-                <div class="marginInline10px">
-                    <a href="/api/users/sign-up" name="SignUp">SignUp</a>
-                </div>
-            </div>
+        <div class="rightContainer">
+            <img src="static/favorite-24px.svg" alt="Favorite" width="24" height="24">
+            <img src="static/shopping_cart-24px.svg" alt="Shopping cart" width="24" height="24">
+            <a href="/api/users/sign-up" name="Login">Login</a>
+            |
+            <a href="/api/users/sign-up" name="SignUp">SignUp</a>
         </div>
     </div>
 </section>
