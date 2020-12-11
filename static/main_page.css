@@ -1,0 +1,144 @@
+.mainPageTagList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    background: #6d7072;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box; /* for cut padding left right */
+    width: 100%;
+    font-size: 17px;
+}
+
+.mainPageContainer {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+}
+
+.buttonAddToOrder {
+    background-color: #ffffff;
+    color: #898989;
+    width: 30%;
+    padding: 3px 5px;
+    /*margin-top: 15px;*/
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border: 1px solid #ccc;
+}
+
+.descriptionAndNameContainer {
+    width: 60%;
+}
+
+.descriptionContainer {
+    font-size: 14px;
+    word-wrap: break-word; /* words hyphenation */
+    /*width: 60%;*/
+}
+
+.expirationContainer {
+    font-size: 12px;
+    width: 30%;
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.priceButtonContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-self: flex-end;
+    padding: 10px;
+    box-sizing: border-box;
+    border-top: 1px solid #ccc;
+}
+
+.betweenContainerDescriptionExpiration {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 30%;
+    position: relative;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+    padding: 5px 16px;
+}
+
+/*
+    LINKS
+*/
+
+/* unvisited link */
+.tagSelect:link {
+    color: black;
+    text-decoration: none;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    background-color: white;
+}
+
+/* visited link */
+.tagSelect:visited {
+    color: black;
+    text-decoration: none;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    background-color: white;
+}
+
+/* mouse over link */
+.tagSelect:hover {
+    color: blue;
+    text-decoration: underline;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    background-color: white;
+}
+
+/* selected link */
+.tagSelect:active {
+    color: red;
+    text-decoration: underline;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    background-color: white;
+}

@@ -1,0 +1,92 @@
+<!--        todo для того чтобы сделать Main Page с переносами items которые
+                не помещаются в одну строчку на другую строчку использовать flex-wrap-->
+<!DOCTYPE html>
+<html lang="en">
+<script src="http://www.w3schools.com/lib/w3data.js"></script>
+<head>
+    <title>New item</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="static/common.css">
+    <link rel="stylesheet" type="text/css" href="static/main_page.css">
+</head>
+<body>
+<div class="bodyContainer">
+    <div w3-include-html="navigation_bar.html"></div>
+    <div class="mainPageTagList">
+        <a class="tagSelect" href="main_page.html?tagName=fun">fun</a>
+        <a class="tagSelect" href="main_page.html?tagName=film">film</a>
+        <a class="tagSelect" href="main_page.html?tagName=action">action</a>
+        <a class="tagSelect" href="main_page.html?tagName=park">park</a>
+        <!--        todo ask how to resolve if tag name will be big -->
+        <a class="tagSelect" href="main_page.html?tagName=bootcamp">bootcamp</a>
+    </div>
+    <section class="mainPageContainer">
+        <div class="card">
+            <div class="container">
+                <h4><b>giftCertificate0</b></h4>
+                <div class="betweenContainerDescriptionExpiration">
+                    <!--        todo ask how to resolve if description will be big -->
+                    <div class="descriptionContainer">certificate #0 for 2 gift(s)11111111111111 11111111111111111111
+                        1111111111111 111111111111111111
+                    </div>
+                    <div class="expirationContainer">expires in 10 days</div>
+                </div>
+                <div class="priceButtonContainer">
+                    <div class="label">19.11$</div>
+                    <input class="buttonAddToOrder" type="submit" value="Add to Order">
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="container">
+                <h4><b>giftCertificate1</b></h4>
+                <div class="betweenContainerDescriptionExpiration">
+                    <div class="descriptionContainer">
+                        certificate #1 for 8 gift(s)
+                    </div>
+                    <div class="expirationContainer">expires in 20 days</div>
+                </div>
+                <div class="priceButtonContainer">
+                    <div class="label">3.80$</div>
+                    <input class="buttonAddToOrder" type="submit" value="Add to Order">
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="container">
+                <h4><b>giftCertificate2</b></h4>
+                <div class="betweenContainerDescriptionExpiration">
+                    <div class="descriptionContainer">
+                        certificate #2 for 2 gift(s)
+                    </div>
+                    <div class="expirationContainer">expires in 5 days</div>
+                </div>
+                <div class="priceButtonContainer">
+                    <div class="label">8.19$</div>
+                    <input class="buttonAddToOrder" type="submit" value="Add to Order">
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="container">
+                <h4><b>giftCertificate3</b></h4>
+                <div class="betweenContainerDescriptionExpiration">
+                    <div class="descriptionContainer">
+                        certificate #3 for 4 gift(s)
+                    </div>
+                    <div class="expirationContainer">expires in 4 days</div>
+                </div>
+                <div class="priceButtonContainer">
+                    <div class="label">8.90$</div>
+                    <input class="buttonAddToOrder" type="submit" value="Add to Order">
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        w3IncludeHTML();
+    </script>
+</div>
+</body>
+</html>
