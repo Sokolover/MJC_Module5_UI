@@ -5,24 +5,24 @@
     <title>Login</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="static/common_style.css">
+    <link rel="stylesheet" type="text/css" href="static/common.css">
+    <link rel="stylesheet" type="text/css" href="static/login.css">
 </head>
 <body>
 <div class="bodyContainer">
     <div w3-include-html="navigation_bar.html"></div>
     <section class="loginContainer">
-        <!--        <div class="loginContainer">-->
         <div class="marginBottom20px alignItemsCenter justifyCenter">
             <img src="static/login-24px.svg" alt="Login" width="100" height="100">
         </div>
         <div class="">
-            <div class="loginForm">
+            <div class="inputForm">
                 <label class="">
                     <input class="" id="username" name="username"
                            type="text" placeholder="Login">
                 </label>
             </div>
-            <div class="loginForm">
+            <div class="inputForm">
                 <label class="">
                     <input class="" id="password" name="password"
                            type="password" placeholder="Password">
@@ -32,7 +32,6 @@
         <div class="marginTop20px justifyCenter">
             <input class="buttonSubmit" type="submit" value="Login">
         </div>
-        <!--        </div>-->
     </section>
     <script>
         w3IncludeHTML();

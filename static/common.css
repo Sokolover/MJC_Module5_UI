@@ -16,32 +16,6 @@ div {
     margin: auto;
 }
 
-.loginContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex: 1;
-    align-items: center;
-    background-color: #f2f2f2;
-}
-
-.newItemContainer {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    align-items: center;
-    background-color: #f2f2f2;
-}
-
-.registerContainer {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    align-items: center;
-    justify-content: center;
-    background-color: #f2f2f2;
-}
-
 .appHeader {
     display: flex;
     flex-direction: column;
@@ -49,12 +23,12 @@ div {
     padding: 10px 20px;
 }
 
-.loginForm {
+.inputForm {
     overflow: hidden;
     background-color: #f2f2f2;
 }
 
-.loginForm input {
+.inputForm input {
     width: 100%;
     padding: 12px 20px;
     margin: 4px 0;
@@ -68,7 +42,6 @@ div {
 .buttonSubmit {
     background-color: #70cf98;
     color: white;
-    width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     text-align: center;
@@ -81,7 +54,6 @@ div {
 .buttonCancel {
     background-color: #ffffff;
     color: #898989;
-    width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     text-align: center;
@@ -91,67 +63,12 @@ div {
     border: 1px solid #ccc;
 }
 
-.registerHeader {
-    align-self: center;
-    background: #6d7072;
-    color: white;
-    padding: 20px;
-    box-sizing: border-box;/* for cut padding left right */
-    width: 100%;
-    text-align: left;
-    font-size: 17px;
-}
-
-.addItemHeader {
-    align-self: center;
-    background: #6d7072;
-    color: white;
-    padding: 20px;
-    box-sizing: border-box;/* for cut padding left right */
-    width: 100%;
-    text-align: left;
-    font-size: 17px;
-}
-
-.registerForm {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.registerContent {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
-}
-
-.registerButtons {
-    display: flex;
-    /*justify-content: space-around;*/
-    /*margin-top: 30px;*/
-    align-self: flex-end;
-}
-
-.addItemButtons {
-    display: flex;
-    /*justify-content: space-around;*/
-    /*margin-top: 30px;*/
-    align-self: center;
-}
-
-.columnRegisterForm{
-    display: flex;
-    flex-direction: column;
-    width: 45%;
-}
-
 .label {
     color: #363636;
     display: block;
     font-size: 1rem;
     font-weight: 700;
 }
-
 
 .betweenContainer {
     display: flex;
